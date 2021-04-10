@@ -156,3 +156,52 @@ body {
     background: var(--gray-color);
     padding: 25px 29px 20px 17px;
 }
+
+.products {
+    margin-bottom: 191px;
+}
+
+
+
+
+
+
+.advantages {
+    display: flex;
+    background-color: var(--black-color);
+    min-height: 341px;
+
+}
+
+.advantages__img {
+    min-height: 40px;
+}
+
+.advantages__item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.advantages__item-text {
+    text-align: center;
+}
+
+.footer {
+    background-image: url(../img/subscride.png);
+    min-height: 448px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer__item {
+    text-align: center;
+    width: 327px;
+}
